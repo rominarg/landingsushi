@@ -134,14 +134,10 @@ p{
     transition: all .4s ease-out 0s;
 }
 .main-btn:hover{
-    background-color: transparent;
-    color: var(--primary-color);
+    background-color: var(--secondry-color);
+    color: var(--white-color);
 }
-.white-btn:hover{
-    background-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-}
+
 .wrapper{
     padding-top: 2.25rem;
     padding-bottom: 4.25rem;
