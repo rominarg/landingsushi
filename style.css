@@ -95,6 +95,11 @@ p{
     letter-spacing: 1px;
 }
 
+.fab fa-whatsapp fa-lg {
+    display: inline-block;
+    margin: 30px; 
+}
+
 .pbanner{
     font-size: 1rem;
     color: var(--white-color);
