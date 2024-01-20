@@ -11,3 +11,14 @@ SushiRestaurant responsive website by using BOOTSTRAP 5 .
 - HTML: Lenguaje de marcado para la estructura de la página web.
 - CSS: Hojas de estilo para el diseño y la presentación.
 - Bootstrap 5: Marco de diseño front-end que facilita el desarrollo web con componentes predefinidos y estilos.
+
+## Cómo Clonar el Repositorio
+
+Si deseas contribuir o probar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Abre tu terminal o línea de comandos.
+
+2. Utiliza el siguiente comando para clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/rominarg/landingPageSushi.git
