@@ -4,7 +4,8 @@ SushiRestaurant responsive website by using BOOTSTRAP 5 .
 
 
 
-![romina_navarrete - rominarg github io](https://github.com/rominarg/landingsushi/assets/45200064/c5d87d8f-c5e8-4b04-84ee-b4f9c9d23f3f)
+![romina_navarrete_desing_web](https://github.com/rominarg/landingsushi/assets/45200064/1a10f46b-4751-4a34-a5dc-925272219b06)
+
 
 
 ## Tecnologías Utilizadas
