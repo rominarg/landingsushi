@@ -181,7 +181,7 @@ p{
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: var(--white-color);
     letter-spacing: 1px;
 }
 .navigation-wrap .main-btn{
@@ -433,7 +433,7 @@ form textarea::placeholder{
 
 .footer {
     background:var(--secondry-color);
-    color: var(--primary-color);
+    color: var(--white-color);
     padding: 19px 0;
     list-style: none;
 }
@@ -457,16 +457,16 @@ form textarea::placeholder{
 }
 .footer-links h4{
     font-size: 20px;
-    color: var(--primary-color);
+    color: var(--white-color);
     margin-bottom: 25px;
     font-weight: 500;
-    border-bottom: 2px solid var(--primary-color);;
+    border-bottom: 2px solid var(--white-color);
     padding-bottom: 10px;
     display: inline-table;
 }
 
 .footer-links a {
-    color: var(--primary-color);
+    color: var(--white-color);
     text-decoration: none;
 }
 
@@ -478,7 +478,7 @@ form textarea::placeholder{
 }
 
 .copyright {
-    color: var(--primary-color);
+    color: var(--white-color);;
 }
 
 /*RESPONSIVE*/
