@@ -24,3 +24,8 @@ Si deseas contribuir o probar este proyecto en tu máquina local, sigue estos pa
 
    ```bash
    git clone https://github.com/rominarg/landingPageSushi.git
+
+
+## Accesibilidad
+
+   Analizamos pagina con extensión wave y corregimos el contraste.
