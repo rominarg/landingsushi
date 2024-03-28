@@ -274,8 +274,8 @@ Explore Food Section Design
     border: none;
     background-color: transparent;
     border-radius: 0.9375rem;
-
 }
+
 .explore-food .card img{
     border-radius: 0.9375rem;
     object-fit: cover;
