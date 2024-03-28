@@ -279,6 +279,8 @@ Explore Food Section Design
 .explore-food .card img{
     border-radius: 0.9375rem;
     object-fit: cover;
+    width: 250px; 
+    height: 250px;
 }
 .explore-food .card span{
     display: block;
