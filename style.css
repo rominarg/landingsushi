@@ -149,7 +149,7 @@ p{
     width: 100%;
     background-color: var(--primary-color);
     color: #fff; 
-    padding: 5px; 
+    padding: 7px; 
     text-align: center; 
     letter-spacing: 2px;
     font-weight: 500;
@@ -202,7 +202,7 @@ p{
     width: 100%;
     background:url('./images/bg/b1_.svg') no-repeat center;
     background-size: cover;
-    padding: 6.875rem 0 2rem;
+    padding: 2rem;
 }
 
 /* COUNTER DESIGN */
