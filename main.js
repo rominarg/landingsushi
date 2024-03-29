@@ -43,4 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-
+// Script para fijar el navbar al hacer scroll
+window.addEventListener('scroll', function() {
+    let nav = document.querySelector(".navigation-wrap");
+    if (document.documentElement.scrollTop > 20) {
+        nav.classList.add("scroll-on");
+    } else {
+        nav.classList.remove("scroll-on");
+    }
+});

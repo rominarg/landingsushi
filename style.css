@@ -50,7 +50,7 @@ body {
 }
 /* custom scroll bar */
 ::-webkit-scrollbar{
-    width: 0.625rem;
+    width: 0rem;
 }
 ::-webkit-scrollbar-track{
     background: var(--white-color);
@@ -99,14 +99,7 @@ p{
     display: inline-block;
     margin: 30px; 
 }
-.top-bar {
-    background-color: var(--primary-color);
-    color: #fff; 
-    padding: 7px; 
-    text-align: center; 
-    letter-spacing: 1px;
-    font-weight: 400;
-}
+
 
 .pbanner{
     font-size: 1.3rem;
@@ -151,14 +144,26 @@ p{
 }  
 
 /* header design */
-.navigation-wrap{
-    position: fixed;
+.top-bar {
+    position: relative; 
     width: 100%;
-    left: 0;
+    background-color: var(--primary-color);
+    color: #fff; 
+    padding: 3px; 
+    text-align: center; 
+    letter-spacing: 2px;
+    font-weight: 500;
+    z-index: 1001; /
+}
+
+.navigation-wrap {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: #000000; 
     z-index: 1000;
-    -webkit-transition: all 0.3s ease-out ;
-    transition: all 0.3s ease-out ;
+    transition: all .15s ease-in-out 0s;
 }
 .navigation-wrap .nav-item{
     padding: 0 0.625rem;
@@ -183,17 +188,16 @@ p{
 }
 
  /*change navbar styling on scroll*/
-.navigation-wrap .scroll-on{
+ .navigation-wrap.scroll-on {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem  0 rgb(0,0,0,0.09);
+    background: #000000;
     transition: all .15s ease-in-out 0s;
 }
 
-/* rop-banner design */
+/* top-banner design */
 .top-banner{
     width: 100%;
     background:url('./images/bg/b1_.svg') no-repeat center;
@@ -467,7 +471,7 @@ form textarea::placeholder{
 .footer-links a:hover {
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 1.4rem; 
+    font-size: 1.5rem; 
     transition: color 0.3s, transform 0.3s; 
     transition: 0.4s;
 }
@@ -476,9 +480,11 @@ form textarea::placeholder{
     color: var(--white-color);;
 }
 
-/*RESPONSIVE*/
-
-
+@media (max-width: 991px) {
+    .navigation-wrap {
+        background-color: var(--white-color);
+    }
+}
 
 
 
