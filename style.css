@@ -99,6 +99,13 @@ p{
     display: inline-block;
     margin: 30px; 
 }
+.top-bar {
+    background-color: var(--primary-color);
+    color: #fff; 
+    padding: 7px; 
+    text-align: center; 
+    letter-spacing: 1px;
+}
 
 .pbanner{
     font-size: 1rem;
@@ -289,7 +296,7 @@ Explore Food Section Design
     border-bottom: 0.0625rem solid #eee;
 }
 .explore-food .card span del{
-   color: var(--text-gray);
+   color: #595959;
    margin-left: 0.5rem; 
 }
 
