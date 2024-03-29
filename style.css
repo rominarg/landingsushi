@@ -111,7 +111,7 @@ p{
 .pbanner{
     font-size: 1rem;
     color: var(--white-color);
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.75rem;
     letter-spacing: 1px;
 }
