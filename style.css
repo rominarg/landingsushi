@@ -204,9 +204,9 @@ p{
 /* rop-banner design */
 .top-banner{
     width: 100%;
-    background:url('./images/bg/banner01.png') no-repeat center;
+    background:url('./images/bg/b1_.svg') no-repeat center;
     background-size: cover;
-    padding: 6.875rem 0 9.375rem;
+    padding: 6.875rem 0 2rem;
 }
 
 /* COUNTER DESIGN */
