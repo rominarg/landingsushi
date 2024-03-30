@@ -50,7 +50,7 @@ body {
 }
 /* custom scroll bar */
 ::-webkit-scrollbar{
-    width: 0rem;
+    width: 1rem;
 }
 ::-webkit-scrollbar-track{
     background: var(--white-color);
@@ -112,7 +112,7 @@ p{
     display: inline;
     padding: 0.625rem 1.87rem;
     line-height: 1.5625rem;
-    background-color:var(--primary-color);
+    background-color:var(--secondry-color);
     color: var(--white-color);
     font-size: 1.2rem; 
     font-weight: bold;
@@ -122,11 +122,31 @@ p{
     -o-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
+    border: none; /* Para quitar el borde */
+    box-shadow: none; /* Para quitar la sombra */
 }
 
 .main-btn:hover{
-    background-color: var(--secondry-color);
+    background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+.whatsapp-btn {
+    background-color: var(--primary-color);
+    color: #fff; 
+    border: none; 
+    padding: 0.625rem 1.87rem; 
+    font-size: 1rem; 
+    font-weight: bold;
+    border-radius: 0.5rem; 
+    display: inline-flex; 
+    margin-right: 2rem;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #454545; 
 }
 
 .wrapper{
@@ -173,6 +193,7 @@ p{
     outline: unset;
     border: unset;
     box-shadow: none;
+    font-weight: 900;
 }
 .nav-link{
     font-size: 1rem;
@@ -381,6 +402,11 @@ FAQ Section Design
     margin: 0 auto;
 }
 
+.datos-form{
+    flex-direction: column;
+    max-width: 100%;
+    }
+    
 .datos-form div{
     padding: 10px;
     flex: 1;
@@ -470,8 +496,8 @@ form textarea::placeholder{
 
 .footer-links a:hover {
     color: var(--primary-color);
-    font-weight: bold;
-    font-size: 1.5rem; 
+    font-weight: 200;
+    font-size: 1.2rem; 
     transition: color 0.3s, transform 0.3s; 
     transition: 0.4s;
 }
@@ -485,6 +511,7 @@ form textarea::placeholder{
         background-color: var(--white-color);
     }
 }
+
 
 
 
